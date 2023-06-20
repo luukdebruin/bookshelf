@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const settingsScreens = require('./tailwind/settings.screens')
+const settingsFontSizes = require('./tailwind/settings.fontsizes')
+
 module.exports = {
   mode: 'jit',
   content: [
@@ -7,7 +10,21 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+		screens: settingsScreens,
+		fontSize: settingsFontSizes,
+		container: {
+			center: true,
+			padding: '1rem',
+			screens: {
+				sm: '100%',
+				lg: '1344px',
+			},
+		},
+    extend: {
+			fontFamily: {
+				sans: ['var(--font-brockmann)']
+			}
+		},
   },
-  plugins: [],
+	plugins: [require('@tailwindcss/typography')],
 }
