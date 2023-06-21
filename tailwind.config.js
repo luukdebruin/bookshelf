@@ -25,6 +25,5 @@ module.exports = {
 				sans: ['var(--font-brockmann)']
 			}
 		},
-  },
-	plugins: [require('@tailwindcss/typography')],
+  }
 }

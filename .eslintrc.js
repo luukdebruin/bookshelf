@@ -1,6 +1,6 @@
 module.exports = {
 	root: true,
-	extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended'],
+	extends: ['next/core-web-vitals', 'plugin:@typescript-eslint/recommended'],
 	env: { browser: true, es6: true, node: true },
 	parserOptions: {
 		ecmaFeatures: { jsx: true },
@@ -12,7 +12,7 @@ module.exports = {
 	},
 	settings: {
 		react: {
-			version: '17.0.1',
+			version: '18.2.0',
 		},
 	},
 	overrides: [
