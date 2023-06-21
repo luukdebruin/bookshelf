@@ -1,40 +1,60 @@
+import { Blockquote, H1, H2, H3, Paragraph } from '@/components/ui/Type'
 import React from 'react'
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between p-24 max-w-[1000px] m-auto">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-				magna aliqua. Eu feugiat pretium nibh ipsum consequat nisl. Viverra accumsan in nisl nisi scelerisque. Mattis
-				vulputate enim nulla aliquet porttitor lacus luctus accumsan. Vitae sapien pellentesque habitant morbi tristique
-				senectus et netus. Massa tincidunt dui ut ornare lectus sit amet est. Mattis rhoncus urna neque viverra justo.
-				Malesuada fames ac turpis egestas sed tempus urna et pharetra. Id cursus metus aliquam eleifend mi. Volutpat
-				odio facilisis mauris sit amet. Magna eget est lorem ipsum dolor sit. Nibh sit amet commodo nulla facilisi
-				nullam. Tempor id eu nisl nunc mi ipsum. Sodales ut eu sem integer vitae justo eget. Massa eget egestas purus
-				viverra accumsan in nisl. Volutpat ac tincidunt vitae semper quis lectus nulla. Duis ultricies lacus sed turpis
-				tincidunt id aliquet. Id semper risus in hendrerit gravida. Elit scelerisque mauris pellentesque pulvinar
-				pellentesque habitant morbi. Felis imperdiet proin fermentum leo vel. Non nisi est sit amet. Nec ultrices dui
-				sapien eget mi. Id faucibus nisl tincidunt eget nullam non nisi est sit. Lectus urna duis convallis convallis
-				tellus id interdum. Tellus orci ac auctor augue mauris. Eu sem integer vitae justo eget magna fermentum. Diam
-				quis enim lobortis scelerisque fermentum. Nunc id cursus metus aliquam eleifend mi in nulla. Imperdiet dui
-				accumsan sit amet. Tempus urna et pharetra pharetra massa massa. Tellus mauris a diam maecenas. Urna nunc id
-				cursus metus aliquam eleifend mi. Cras tincidunt lobortis feugiat vivamus at augue eget. Tempus egestas sed sed
-				risus pretium quam vulputate dignissim suspendisse. Pretium nibh ipsum consequat nisl vel pretium lectus. Sed
-				tempus urna et pharetra pharetra. Est ante in nibh mauris cursus mattis molestie a. Gravida in fermentum et
-				sollicitudin ac. Pellentesque elit eget gravida cum sociis natoque penatibus. Fusce id velit ut tortor pretium
-				viverra suspendisse potenti nullam. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Id consectetur
-				purus ut faucibus pulvinar elementum integer. Eu lobortis elementum nibh tellus. Sed turpis tincidunt id aliquet
-				risus feugiat in. Risus nec feugiat in fermentum posuere urna nec tincidunt. Vitae suscipit tellus mauris a diam
-				maecenas. Gravida arcu ac tortor dignissim convallis aenean. Amet dictum sit amet justo donec enim. Risus nec
-				feugiat in fermentum. Risus ultricies tristique nulla aliquet enim. Sed turpis tincidunt id aliquet risus
-				feugiat in. Fringilla est ullamcorper eget nulla. Malesuada fames ac turpis egestas maecenas pharetra convallis
-				posuere morbi. Lorem dolor sed viverra ipsum nunc. Aliquam sem fringilla ut morbi tincidunt augue. Eget nulla
-				facilisi etiam dignissim diam quis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Eget nulla facilisi
-				etiam dignissim. Bibendum est ultricies integer quis. Ipsum nunc aliquet bibendum enim facilisis gravida neque.
-				Purus sit amet volutpat consequat mauris nunc congue nisi. Sit amet justo donec enim. At varius vel pharetra vel
-				turpis nunc. Amet risus nullam eget felis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. Neque
-				ornare aenean euismod elementum nisi quis eleifend quam.
-			</p>
+		<main className="flex min-h-screen flex-col items-center justify-between p-8 max-w-[1000px] m-auto">
+			<div>
+				<H1>The Joke Tax Chronicles</H1>
+				<Paragraph>
+					Once upon a time, in a far-off land, there was a very lazy king who spent all day lounging on his throne. One
+					day, his advisors came to him with a problem: the kingdom was running out of money.
+				</Paragraph>
+				<H2 className="mt-10">The King&apos;s Plan</H2>
+				<Paragraph>
+					The king thought long and hard, and finally came up with{' '}
+					<a href="#" className="font-medium text-primary underline underline-offset-4">
+						a brilliant plan
+					</a>
+					: he would tax the jokes in the kingdom.
+				</Paragraph>
+				<Blockquote>
+					"After all," he said, "everyone enjoys a good joke, so it's only fair that they should pay for the privilege."
+				</Blockquote>
+				<H3 className="mt-8">The Joke Tax</H3>
+				<Paragraph>The king's subjects were not amused. They grumbled and complained, but the king was firm:</Paragraph>
+				<ul className="my-6 ml-6 list-disc [&>li]:mt-2 text-primary">
+					<li>1st level of puns: 5 gold coins</li>
+					<li>2nd level of jokes: 10 gold coins</li>
+					<li>3rd level of one-liners : 20 gold coins</li>
+				</ul>
+				<Paragraph>
+					As a result, people stopped telling jokes, and the kingdom fell into a gloom. But there was one person who
+					refused to let the king's foolishness get him down: a court jester named Jokester.
+				</Paragraph>
+				<H3 className="mt-8">Jokester's Revolt</H3>
+				<Paragraph>
+					Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under
+					the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop
+					Jokester.
+				</Paragraph>
+				<Paragraph>
+					And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that
+					they couldn't help but laugh. And once they started laughing, they couldn't stop.
+				</Paragraph>
+				<H3 className="mt-8">The People's Rebellion</H3>
+				<Paragraph>
+					The people of the kingdom, feeling uplifted by the laughter, started to tell jokes and puns again, and soon
+					the entire kingdom was in on the joke.
+				</Paragraph>
+				<Paragraph>
+					The king, seeing how much happier his subjects were, realized the error of his ways and repealed the joke tax.
+					Jokester was declared a hero, and the kingdom lived happily ever after.
+				</Paragraph>
+				<Paragraph>
+					The moral of the story is: never underestimate the power of a good laugh and always be careful of bad ideas.
+				</Paragraph>
+			</div>
 		</main>
 	)
 }

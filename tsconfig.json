@@ -23,10 +23,9 @@
         "name": "next"
       }
     ],
-    "paths": {
-      "@/*": [
-        "./*"
-      ]
+		"baseUrl": ".",
+		"paths": {
+      "@/*": ["./*"]
     },
     "forceConsistentCasingInFileNames": true
   },

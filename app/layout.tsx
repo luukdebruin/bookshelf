@@ -1,9 +1,22 @@
 import React from 'react'
-import './globals.css'
+import '../styles/global.css'
 import localFont from 'next/font/local'
 
 const font = localFont({
-	src: '../public/fonts/brockmann-medium.woff',
+	src: [
+		{
+			path: '../public/fonts/brockmann-regular.woff2',
+			weight: '400',
+		},
+		{
+			path: '../public/fonts/brockmann-medium.woff2',
+			weight: '500',
+		},
+		{
+			path: '../public/fonts/brockmann-bold.woff2',
+			weight: '700',
+		},
+	],
 	variable: '--font-brockmann',
 })
 
