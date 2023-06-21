@@ -19,10 +19,10 @@ export default function Home() {
 					: he would tax the jokes in the kingdom.
 				</Paragraph>
 				<Blockquote>
-					"After all," he said, "everyone enjoys a good joke, so it's only fair that they should pay for the privilege."
+					After all, he said, everyone enjoys a good joke, so its only fair that they should pay for the privilege.
 				</Blockquote>
 				<H3 className="mt-8">The Joke Tax</H3>
-				<Paragraph>The king's subjects were not amused. They grumbled and complained, but the king was firm:</Paragraph>
+				<Paragraph>The kings subjects were not amused. They grumbled and complained, but the king was firm:</Paragraph>
 				<ul className="my-6 ml-6 list-disc [&>li]:mt-2 text-primary">
 					<li>1st level of puns: 5 gold coins</li>
 					<li>2nd level of jokes: 10 gold coins</li>
@@ -30,19 +30,19 @@ export default function Home() {
 				</ul>
 				<Paragraph>
 					As a result, people stopped telling jokes, and the kingdom fell into a gloom. But there was one person who
-					refused to let the king's foolishness get him down: a court jester named Jokester.
+					refused to let the kings foolishness get him down: a court jester named Jokester.
 				</Paragraph>
-				<H3 className="mt-8">Jokester's Revolt</H3>
+				<H3 className="mt-8">Jokesters Revolt</H3>
 				<Paragraph>
 					Jokester began sneaking into the castle in the middle of the night and leaving jokes all over the place: under
-					the king's pillow, in his soup, even in the royal toilet. The king was furious, but he couldn't seem to stop
+					the kings pillow, in his soup, even in the royal toilet. The king was furious, but he couldnt seem to stop
 					Jokester.
 				</Paragraph>
 				<Paragraph>
 					And then, one day, the people of the kingdom discovered that the jokes left by Jokester were so funny that
-					they couldn't help but laugh. And once they started laughing, they couldn't stop.
+					they couldnt help but laugh. And once they started laughing, they couldnt stop.
 				</Paragraph>
-				<H3 className="mt-8">The People's Rebellion</H3>
+				<H3 className="mt-8">The Peoples Rebellion</H3>
 				<Paragraph>
 					The people of the kingdom, feeling uplifted by the laughter, started to tell jokes and puns again, and soon
 					the entire kingdom was in on the joke.
